@@ -1,0 +1,57 @@
+Análise de Evasão de Clientes (Churn) - TelecomX
+Este projeto realiza uma análise exploratória de dados (EDA) focada em identificar padrões e fatores relacionados à evasão de clientes (churn) em uma empresa fictícia de telecomunicações, a TelecomX.
+
+🧠 Objetivo
+O principal objetivo é entender quais características estão associadas ao cancelamento de contratos por parte dos clientes, utilizando dados reais anonimizados. Isso permitirá que a empresa tome decisões estratégicas para reduzir o churn.
+
+📁 Estrutura do Projeto
+bash
+Copiar
+Editar
+📦 TelecomX-Churn-Analysis
+├── 📊 TelecomX_Data.json         # Base de dados principal
+├── 📓 TelecomX_Analise.ipynb     # Notebook com a análise
+├── 📄 README.md                  # Documentação do projeto
+└── 📈 imgs/                      # Imagens e gráficos gerados
+🛠️ Tecnologias Utilizadas
+Python 3.11
+Pandas
+Seaborn
+Matplotlib
+Jupyter Notebook
+
+📌 Etapas da Análise
+1. Coleta e Entendimento dos Dados
+Fonte: API pública do GitHub (arquivo JSON)
+7.267 registros com informações sobre clientes, faturamento, serviços e evasão.
+
+2. Limpeza e Padronização
+Remoção de valores nulos
+Conversão de variáveis categóricas
+Padronização de nomes e criação de novas colunas úteis (ex: Faturamento_Diario)
+
+3. Análise Descritiva
+Estatísticas básicas (média, mediana, desvio padrão)
+Comparações entre clientes que permaneceram e os que evadiram
+
+4. Visualizações
+Gráficos de barras, boxplots e dispersão
+Correlações entre churn e variáveis como:
+Tempo de contrato
+Método de pagamento
+Tipo de serviço contratado
+Faturamento mensal
+
+🔍 Principais Insights
+💸 Clientes com faturamento mensal mais alto têm maior risco de evasão.
+📄 Pagamento eletrônico (PaperlessBilling) está associado a maior churn.
+⏳ Clientes com menos de 12 meses de contrato representam a maioria dos que cancelam.
+📶 Clientes sem serviços adicionais (backup, suporte, streaming) evadem mais facilmente.
+
+📉 Exemplos de Gráficos
+
+Clientes com pouco tempo de contrato evadem mais
+Clientes evadidos têm, em média, faturamento mensal mais alto
+
+🤝 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues, enviar pull requests ou sugerir melhorias.
